@@ -32,6 +32,15 @@ En este programa observamos el funcionamiento del esclavo controlado por el grup
 
 <br>
 
+| Código | Acción |
+|:----:|--------|
+| 48 | Avanzar |
+| 72 | Retroceder |
+| 51 | Giro izquierda |
+| 34 | Giro derecha |
+
+<br>
+
 **Diagrama de flujo:**
 
 <img width="640" height="681" alt="Diagrama en blanco (3) (1)" src="https://github.com/user-attachments/assets/5c174663-41c0-4b22-ab1b-0253cd9e816c" />
