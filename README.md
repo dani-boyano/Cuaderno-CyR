@@ -1,4 +1,3 @@
-
 # Cuaderno-CyR de Daniel Boyano Lomas
 ¡Bienvenidos! Esta es mi página web creada con GitHub, en la cual relataré los trabajos de la asignatura de Computación y Robótica.
 ## **Proyecto 1 Microbit Maestro y Esclavo**
@@ -13,6 +12,7 @@ En mi caso, al esclavo del grupo 5, por lo que este programa está diseñado par
 ![IMG-20260204-WA0028 (2)](https://github.com/user-attachments/assets/12abf5d2-3dc5-4691-b733-f971ade7d6cf)
 En este programa podemos observar diferentes señales de radio, en forma de números, enviadas al pulsar distintas partes de la placa, como los botones, el logotipo o simplemente agitándo la microbit. Esto no sería posible sino tuviéramos una frecuencia de radio común, como es en nuestro caso la frecuencia número 167, común a la frecuencia del esclavo del grupo 5. Por otra parte, al enviar ciertos valores, la microbit maestro encenderá una serie de leds, formando figuras, que corresponden al sentido en el cuál el maquuen se dirigirá.
 
+<br>
 
 **Diagrama de flujo:**
 
@@ -20,7 +20,7 @@ En este programa podemos observar diferentes señales de radio, en forma de núm
 
 Este diagrama nos viene a decir que cuando la frecuencia de radio es común, al realizar una acción con dicha placa, enviará diferntes valores, en función de dicha concreta acción.
 
-
+<br>
 
 ### <ins>**Esclavo:**</ins>
 El objetivo del esclavo en este proyecto es traducir adecuadamente las señales numéricas enviadas por el maestro en acciones visibles, en este caso, el movimiento, sonido o figuras led del robot maquuen.
@@ -30,8 +30,7 @@ El objetivo del esclavo en este proyecto es traducir adecuadamente las señales 
 ![IMG-20260204-WA0009 (1)](https://github.com/user-attachments/assets/bd8bf610-2840-42c8-af5c-bca448dbbdfa)
 En este programa observamos el funcionamiento del esclavo controlado por el grupo 3, siendo nuestro esclavo el controlado por dicho maestro. En este caso se establece en la frecuencia de radio 5, apartir de ahí, al recibir determinados números, el robot maquuen realiza ciertas acciónes, todo esto sujeto bajo diferentes condicionales que igulan los valores de entrada a números como el 51, el 34, el 72, etc si estos valores son igualados, se ejecutará una acción a mano del robot, si por ejemplo llega el número 51, el robot maquuen encenderá su motor derecho mientras para el izquierdo, por lo que el maquuen girará hacia la izquierda, si recibe el 34, el robot girará en sentido contrario, al recibir el 72, retrocederá, 48 avanzará.
 
-
-
+<br>
 
 **Diagrama de flujo:**
 
@@ -50,10 +49,11 @@ Como podemos ver en el vídeo, el robot logra sortear los obstáculos y llegar a
 
 
 ### Materiales físicos requeridos:
-1.2 Placas Microbit(Maestro y esclavo)
+<li>2 Placas Microbit(Maestro y esclavo)</li>
+<li>Robot maquuen</li>
+<li>5 pilas(1.5V) y sus correspondientes portadores</li>
 
+<br>
 
-2.Robot maquuen
-
-
-3.5 pilas(1.5V) y sus correspondientes portadores TENGO ESTE CÓDIGO DE GITHUB, MEJORALO PARA HACER LA PÁGINA WEB MAS EST´ÑETICA
+<footer>
+    <p>© 2026 · Daniel Boyano Lomas · GitHub Pages</p>
